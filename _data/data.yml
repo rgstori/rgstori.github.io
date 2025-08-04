@@ -54,12 +54,11 @@ education:
     - degree: M.Sc. in Telecommunications Engineering - 110/110
       university: Università degli Studi di Padova, Italy
       time: 2013 - 2015
-      details: | # Add thesis title or key areas of study if desired
     - degree: M.Sc. Thesis (Erasmus Programme)
       university: Imperial College London, UK
       time: 2014
       details: |
-      Thesis title: "Smart Charging Scheduling for Plug-in Electric Vehicles"
+        Thesis: "Smart Charging Scheduling for Plug-in Electric Vehicles"
     - degree: B.Sc. in Information Engineering
       university: Università degli Studi di Padova, Italy
       time: 2009 - 2012
@@ -90,7 +89,7 @@ experiences:
       details: |
         Driving Vodafone's global Telco Cloud strategy, providing architectural leadership and guidance to C-suite executives (CNO, CTO) on 5G, cloud-native transformation, and next-generation network services across 23 markets.
         *   Defined and drove Vodafone's Network Cloud strategy and technical authority, authoring and evolving the Vodafone Cloud Blueprint (1,000+ page EA reference, ~12 releases/yr providing common CaaS, GitOps, NFVO patterns) to enable 5G Core and Open RAN launches, reducing local design effort by an estimated 40%.
-        *   Led strategic RFQs and vendor selections for multiple core cloud platforms (CaaS, NFVO, GitOps), achieving >€100M projected annualised savings following a strategic vendor contract renewal.
+        *   Led strategic RFQs and vendor selections for core cloud platforms, achieving >€100M projected annualised savings through the adoption of Bare-Metal CaaS (Red Hat) and optimized NFVO licensing.
         *   Championed and scaled GitOps adoption for CNF lifecycle management, developing the strategic roadmap and framework specifications (Red Hat OpenShift, GitLab, ArgoCD/FluxCD), improving deployment automation by >70% and supporting a multi-billion Euro 5G investment.
         *   Directed tripartite Onboarding Forums with key CNF and Cloud vendors, resolving >100 critical integration issues for timely 5G Core/CNF launches across 7+ European markets (UK, DE, ES, IT, etc.), supported by technical requirements authored for private CaaS and Hyperscalers.
         *   Steered strategic vendor roadmaps (VMware Cloud Platform, Red Hat OpenShift), securing delivery of >50 critical features (e.g., K8s release support and adoption pace, advanced networking, platform release cadence, upgrade automation and advanced features) and spearheaded initiatives streamlining cloud platform upgrades (common CaaS upgrades) from days to ~2.5 hours, cutting operational overhead by >50%.
@@ -130,8 +129,8 @@ certifications:
       # end:
       organization: Vodafone
       details: |
-        Internal Vodafone recognition for top-tier technical expertise and leadership.
     - name: CKA - Certified Kubernetes Administrator
+        Internal recognition for top-tier technical expertise and leadership, awarded for sustained high impact.
       start: Dec 2022
       organization: The Linux Foundation
       details: |
@@ -149,7 +148,7 @@ certifications:
         Selected speaker presenting on thought-leadership in open networking.
 
 oss:
-  title: OSS Contributions
+  title: OSS & Community Contributions
   intro: >
     Key leadership roles and contributions to open source projects and global telecommunications standards.
   contributions:
@@ -179,10 +178,10 @@ publications:
     conference: KubeCon + CloudNativeCon Europe 2023, Amsterdam
   - title: "GSMA NG.139: Cloud Infrastructure Reference Model"
     link: "https://www.gsma.com/newsroom/wp-content/uploads//NG.139-v2.0.pdf" # Link to the specification
-    authors: GSMA TSG (Anuket RA2 as foundation, R. Gasparetto Stori contributor/editor)
+    authors: GSMA (R. Gasparetto Stori, contributor)
     conference: GSMA Official Document (Multiple Releases)
   - title: "Anuket Reference Architecture 2 (RA2): Kubernetes Based Cloud Infrastructure"
-    link: "https://cntt.readthedocs.io/projects/ra2/en/latest/index.html" # Example link
+    link: "https://cntt.readthedocs.io/projects/ra2/en/latest/"
     authors: Anuket Project (R. Gasparetto Stori, Workstream Lead)
     conference: Linux Foundation Networking (Multiple Releases)
 
