@@ -14,5 +14,22 @@ $resume-order: 1;
 $sidebar-order: 2;
 {% endif %}
 
+
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+
+/* Custom styles for skill tags */
+.skill-tags {
+  margin-top: 5px; /* Adds a little space below the category title */
+}
+
+.skill-tag {
+  display: inline-block; /* Allows for margin/padding */
+  background-color: #f0f0f0; /* A light grey background */
+  color: #555; /* A darker text color */
+  padding: 4px 10px; /* Vertical and horizontal padding */
+  margin: 3px; /* Space between tags */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 0.9em; /* Slightly smaller font size */
+}
