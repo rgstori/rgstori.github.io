@@ -1,0 +1,23 @@
+{% assign highlights = site.data.data.key_highlights %}
+{% if highlights %}
+<section class="section highlights-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-star fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ highlights.title }}
+  </h2>
+  <div class="intro">
+    {% for highlight in highlights.highlights %}
+    <div class="item">
+      <div class="highlight-title">
+        <i class="fas {{ highlight.icon }}"></i>
+        <strong>{{ highlight.title }}</strong>
+      </div>
+      <div class="highlight-details">{{ highlight.details }}</div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

@@ -64,6 +64,22 @@ education:
       university: Università degli Studi di Padova, Italy
       time: 2009 - 2012
       details: |
+     
+key_highlights:
+  title: Key Highlights
+  highlights:
+    - icon: fa-award # Or fa-star
+      title: Vodafone Level 5 Technical Expert
+      details: Recognized for exceptional expertise driving Vodafone's Network Cloud strategy and enabling critical 5G SA Core launches across 23 markets.
+    - icon: fa-euro-sign # Or fa-piggy-bank
+      title: Cloud Cost Transformation
+      details: Delivered >€100M projected annualised savings via Bare-Metal CaaS, GitOps, and optimised cloud upgrades.
+    - icon: fa-users # Or fa-bullhorn
+      title: Industry Standards Leadership
+      details: Led Linux Foundation's Anuket RA2 (Kubernetes), secured its adoption as GSMA NG.139, and presented at KubeCon Europe 2023.
+    - icon: fa-drafting-compass # Or fa-cogs
+      title: Cloud Architecture Pioneer
+      details: Authored the Vodafone Cloud Blueprint (1,000+ page EA reference), championed GitOps, and steered strategic vendor roadmaps for critical feature delivery.
 
 experiences:
   title: Experience
@@ -74,10 +90,10 @@ experiences:
       details: |
         Driving Vodafone's global Telco Cloud strategy, providing architectural leadership and guidance to C-suite executives (CNO, CTO) on 5G, cloud-native transformation, and next-generation network services across 23 markets.
         *   Defined and drove Vodafone's Network Cloud strategy and technical authority, authoring and evolving the Vodafone Cloud Blueprint (1,000+ page EA reference, ~12 releases/yr providing common CaaS, GitOps, NFVO patterns) to enable 5G Core and Open RAN launches, reducing local design effort by an estimated 40%.
-        *   Led strategic RFQs and vendor selections for core cloud platforms (1st/2nd Cloud Vendor, CaaS, NFVO, GitOps), achieving >€100M projected annualised savings through Bare-Metal CaaS (Red Hat) and optimized NFVO licensing, following successful Broadcom contract renegotiation.
+        *   Led strategic RFQs and vendor selections for multiple core cloud platforms (CaaS, NFVO, GitOps), achieving >€100M projected annualised savings following a strategic vendor contract renewal.
         *   Championed and scaled GitOps adoption for CNF lifecycle management, developing the strategic roadmap and framework specifications (Red Hat OpenShift, GitLab, ArgoCD/FluxCD), improving deployment automation by >70% and supporting a multi-billion Euro 5G investment.
-        *   Directed tripartite Onboarding Forums with key CNF and Cloud vendors, resolving hundreds of critical integration issues for timely 5G Core/CNF launches across 7+ European markets (UK, DE, ES, IT, etc.), supported by technical requirements authored for private CaaS and Hyperscalers.
-        *   Steered strategic vendor roadmaps (VMware Cloud Platform, Red Hat OpenShift), securing delivery of tens of critical features (e.g., K8s release support and adoption pace, advanced networking, platform release cadence, upgrade automation and advanced features) and spearheaded initiatives streamlining cloud platform upgrades (common CaaS upgrades) from days to ~2.5 hours, cutting operational overhead by >50%.
+        *   Directed tripartite Onboarding Forums with key CNF and Cloud vendors, resolving >100 critical integration issues for timely 5G Core/CNF launches across 7+ European markets (UK, DE, ES, IT, etc.), supported by technical requirements authored for private CaaS and Hyperscalers.
+        *   Steered strategic vendor roadmaps (VMware Cloud Platform, Red Hat OpenShift), securing delivery of >50 critical features (e.g., K8s release support and adoption pace, advanced networking, platform release cadence, upgrade automation and advanced features) and spearheaded initiatives streamlining cloud platform upgrades (common CaaS upgrades) from days to ~2.5 hours, cutting operational overhead by >50%.
         *   Represented Vodafone in key industry standards bodies (Linux Foundation Anuket, GSMA), influencing global Telco Cloud specifications (Anuket RA2, GSMA NG.139), presented at KubeCon Europe 2023 ("Lessons Learned in 5G Cloud-Native Deployments"), and served on the KubeCon 2025 planning committee.
     - role: Kubernetes Reference Architecture Workstream Lead
       time: Dec 2020 – Ongoing
